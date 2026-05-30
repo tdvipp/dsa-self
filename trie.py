@@ -1,3 +1,20 @@
+'''
+https://wiki.vnoi.info/algo/string/trie
+
+Trie - cây tiền tố - quản lý tập hợp các xâu.
+
+Vấn đề:
+* kiểm tra tiền tố
+* kiểm tra xâu
+* thêm xâu vào tập hợp
+* xoá xâu khỏi tập hợp
+
+Thiết kế:
+* class Node - lưu lại số lượng tiền tố và số lượng xâu, sử dụng mảng 26 phân tử tương ứng bảng chữ cái để lookup nhanh
+* add_string - lặp qua từng ký tự trong string và thêm nó vào cây
+* find_string - lặp qua từng ký tự trong string và kiểm tra sự tồn tại của nó
+* delete_string_recursive - đệ quy để xoá xâu và các ký tự không còn xuất hiện
+'''
 # pointer version
 from __future__ import annotations
 

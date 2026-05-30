@@ -5,7 +5,7 @@ Disjoint Set Union - DSU - quản lý hiệu quả tập hợp của các tập 
 
 Vấn đề:
 * thêm 1 cạnh giữa x và y
-* in ra YES nếu x và y nằm trong cùng 1 thành phần liên thông, NO nếu ngược lại
+* check nếu x và y là cùng 1 thành phần liên thông
 
 Thiết kế:
 * make_set(v) - tạo 1 tập hợp mới chỉ chứa v
